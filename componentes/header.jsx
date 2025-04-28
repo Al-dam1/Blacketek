@@ -1,11 +1,15 @@
 import React from 'react'
 import login from './login'
+import Logo from  '../src/assets/logo.png'
+
+
 const Header = () => {
   return (
+    
    <header>
-   
+   <img src={Logo} alt="logo de blacketek"/>
     <h1>
-      Bienvenido a Refloxs
+      Bienvenido a Blacketek
     </h1>
     <p>
       Podras comprar tus entradas favoritas!!
