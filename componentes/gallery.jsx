@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../hoja-de-estilos/Estilos.css";
 const Gallery = () => {
   const images = [
     "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/jenn960.png",
