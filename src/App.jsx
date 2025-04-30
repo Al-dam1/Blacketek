@@ -15,8 +15,9 @@ function App() {
    <>
    <Header/>
    <Navbar/>
-    <Contacto/>
+    
     <Gallery/>
+    <Contacto/>
    <Footer/>
    </>
   )

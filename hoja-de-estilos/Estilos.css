@@ -51,26 +51,34 @@ header button:hover{
     background-color: rgb(59, 91, 11);
 }
 nav {
+    width: auto;
+    border-radius: 6px;
     margin: 10px;
     gap: 15px;
     display: flex;
     align-items: center;
    justify-content: space-around;
-    background-color: aliceblue;
+    background-color: rgb(141, 219, 131);
 }
 
 nav ul { 
     display: flex;
    position: relative;
     list-style-type: none;
-   
-    margin: 10px;
+   margin: 10px;
 }
-
+nav a{
+    color: white;
+}
+nav a:hover{
+    color: black;
+}
 nav ul li {
     color: white; 
     background-color: darkolivegreen;
-margin: 0 20px;
+    margin: 0px 10px;
+    width: 150px;
+    justify-content: center;
     padding: 8px 12px;
     border-radius: 5px;
     cursor: pointer;
