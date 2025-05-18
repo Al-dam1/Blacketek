@@ -13,3 +13,4 @@ If you are developing a production application, we recommend using TypeScript an
 # Blacketek
 cd "C:\Users\Windows 7\OneDrive\Desktop\react-mi_primera_web"
 
+  <!--  ICONO DE X <FaTimes  color="grey" size="2.5em" /> -->

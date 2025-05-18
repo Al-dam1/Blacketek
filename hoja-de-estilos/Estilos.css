@@ -144,6 +144,7 @@ nav ul li:hover {
   border-radius: 20px;
   cursor: pointer;
   font-weight: bold;
+  color: black;
 }
 
 /* Efecto de hover sobre los botones */
@@ -151,5 +152,13 @@ nav ul li:hover {
   transform: scale(1.05);
   transition: transform 0.2s ease;
   background-color: azure;
-  color: black;
+  color: rgb(57, 45, 45);
 }
+.carrito-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+

@@ -1,5 +1,9 @@
 import React from 'react'
 import { FaCheck, FaTimes } from "react-icons/fa";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+
+
 const Navbar = () => {
   return (
     <nav>
@@ -10,8 +14,8 @@ const Navbar = () => {
             <li><a href="">Deportes</a></li>
             <li><a href="">Especiales</a></li>
             <li><a href="./componentes/contacto">Contactanos</a></li>
-           
-            <FaTimes  color="grey" size="2.5em" />
+          <FontAwesomeIcon className='carrito-container' icon={faCartShopping} size="lg"  />
+
         </ul>
     </nav>
   )
