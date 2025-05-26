@@ -1,11 +1,24 @@
 import React from 'react'
+// import '../hoja-de-estilos.css'
+import Header from '../componentes/header.jsx'
+import Footer from '../componentes/footer.jsx'
+import Navbar from '../componentes/navbar.jsx'
+import Contacto from '../componentes/contacto.jsx'
+import Gallery from '../componentes/gallery.jsx'
 
-const home = () => {
+
+const Home = () => {
   return (
-    <div>
-      <header/>
-    </div>
+    <> 
+    <Header/>
+    <Navbar/>
+    <Gallery/>
+    <Contacto/>
+    <Footer/>
+    
+    
+    </>
   )
 }
 
-export default home
+export default Home

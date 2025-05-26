@@ -3,13 +3,13 @@ import "../hoja-de-estilos/Estilos.css";
 const Contacto = () => {
   return (
     <form action="https://formspree.io/f/xeogeoop" method="POST"  enctype="multipart/form-data">
-      <p>Ingresa tu primer nombre:</p>
+      <p>Ingresa tu  nombre:</p>
       <label>
-        <input type="text" name="primer_nombre" placeholder="Ej: Juan" required />
+        <input type="text" name="tu_nombre" placeholder="Ej: Juan" required />
       </label>
-      <p>Ingresa tu segundo nombre:</p>
+      <p>Ingresa tu apellido:</p>
       <label>
-        <input type="text" name="segundo_nombre" placeholder="Ej: Demian" required />
+        <input type="text" name="tu_apellido" placeholder="Ej: Ybarra" required />
       </label>
       <p>Ingresa tu email:</p>
       <label>
