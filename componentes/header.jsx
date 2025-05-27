@@ -1,7 +1,7 @@
 import React from "react";
 import login from "./login";
 import Logo from "../src/assets/logo.png";
-import "../hoja-de-estilos/Estilos.css";
+import "../hoja-de-estilos/estilos.css";
 
 const Header = () => {
   return (
