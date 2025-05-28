@@ -5,7 +5,12 @@
   list-style: none;
   text-decoration: none;
 }
-
+body{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin:0px;
+}
 h1 {
   font-size: 3rem;
 }
@@ -29,7 +34,7 @@ header img {
   width: 150px;
   border-radius: 15px;
   display: flex;
-  flex-direction: right;
+  flex-direction: left;
   vertical-align: middle;
 }
 header button {
@@ -161,16 +166,53 @@ nav ul li:hover {
   width: 50px;
 }
 /* formulario */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
 .form {
   display: flex;
- justify-content: center; 
-  color: black; 
-  flex-direction: column; 
-  gap: 10px; 
-  max-width: 400px; 
-  margin: 0 auto; 
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.form p:hover{
-  color: blanchedalmond;
 
+.form p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.form input,
+.form textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  font-size: 1.2rem;
+}
+
+.form button {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+  color: #333;
 }

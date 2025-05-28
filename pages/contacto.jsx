@@ -52,7 +52,7 @@ const Contacto = () => {
     }
   };
 
-  return ( 
+  return ( <div className="form-container">
     <form  className='form' onSubmit={manejarEnvio} encType="multipart/form-data">
       <p>Nombre:</p>
       <input
@@ -69,7 +69,7 @@ const Contacto = () => {
         name="apellido"
         value={formulario.apellido}
         onChange={manejarCambio}
-        required
+        required 
       />
 
       <p>Email:</p>
@@ -100,6 +100,7 @@ const Contacto = () => {
       <br />
       <button type="submit">Enviar</button>
     </form>
+    </div>
   );
 };
 
