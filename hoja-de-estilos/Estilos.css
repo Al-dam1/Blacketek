@@ -18,9 +18,7 @@ h3 {
 p {
   font-size: 1.5rem;
 }
-body {
-  /* background-color: blueviolet; */
-}
+
 header {
   display: flex;
   align-items: center;
