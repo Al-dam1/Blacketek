@@ -1,9 +1,9 @@
 import React from 'react'
 import '../hoja-de-estilos/estilos.css'
-import Header from '../componentes/Header'
-import Navbar from '../componentes/Navbar'
-import Gallery from '../componentes/Gallery'
-import Footer from '../componentes/Footer'
+import Header from "../componentes/header";
+import Navbar from "../componentes/navbar";
+import Gallery from "../componentes/gallery";
+import Footer from '../componentes/footer';
 
 const Home = () => {
   return (
