@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { CarritoProvider } from './context/CarritoContext';
 import Home from '../pages/home.jsx'
 import Musica from '../pages/Musica.jsx'
 import Teatro from '../pages/Teatro.jsx'
@@ -10,6 +11,7 @@ import Especiales from '../pages/Especiales.jsx'
 import Contacto from '../pages/contacto.jsx'
 import viteLogo from '/vite.svg'
 import '../hoja-de-estilos/estilos.css'
+import Carrito from '../componentes/carrito.jsx'
 
 
  

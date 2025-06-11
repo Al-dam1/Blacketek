@@ -16,8 +16,8 @@ const Navbar = () => {
         <li><Link to='/Deportes'>Deportes</Link></li>
         <li><Link to='/Especiales'>Especiales</Link></li>
         <li><Link to='/Contacto'>Contactanos</Link></li>
-         <li className='carrito-container'>
-          <FontAwesomeIcon icon={faCartShopping} size="lg" />
+         <li className='carrito-container'><Link to='/Cart'>
+          <FontAwesomeIcon icon={faCartShopping} size="lg" /> </Link>
         </li>
 
         </ul>
