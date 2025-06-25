@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react'
 
-const Footer = () => {
+const footer = () => {
   return (
-    <p style={{ fontSize: "12px", color: "#ff0000" }}>
+   
+    <>
+      <h2>Blacketek</h2>
+      <p>Blacketek es una compania de entrada en Argentina... , agregar estilos a footer</p>
+    </>
+  )
+}
 
-       Proyecto educativo sin fines comerciales. Imágenes utilizadas solo con
-      fines demostrativos.
-    </p>
-  );
-};
-
-export default Footer;
+export default footer

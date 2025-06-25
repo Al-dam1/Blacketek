@@ -1,29 +1,23 @@
+import React from 'react';
 
-import React, { createContext, useContext } from 'react';
-
-
-const Carrito = () => {
-  const { carrito, eliminarDelCarrito } = useContext(CarritoContext);
-
+const Carrito = ({ cartItems = [] }) => {
   return (
     <div>
-      <h1>Tu Carrito</h1>
-      {carrito.length === 0 ? (
-        <p>No hay productos en el carrito.</p>
+      <h2>Carrito de compras</h2>
+      {cartItems.length === 0 ? (
+        <p>El carrito está vacío</p>
       ) : (
-        carrito.map((producto, index) => (
-          <div key={index}>
-            <h3>{producto.nombre}</h3>
-            <p>Precio: ${producto.precio}</p>
-            <button onClick={() => eliminarDelCarrito(producto.id)}>
-              Eliminar
-            </button>
-          </div>
-        
-        ))
+        <ul>
+          {cartItems.map((item, index) => (
+            <li key={index}>
+              {item.nombre} - ${item.precio}
+            </li>
+          ))}
+        </ul>
       )}
     </div>
   );
 };
+
 
 export default Carrito;

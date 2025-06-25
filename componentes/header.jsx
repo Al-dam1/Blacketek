@@ -6,7 +6,8 @@ import "../hoja-de-estilos/estilos.css";
 const Header = () => {
   return (
     <header>
-      <img src={Logo} alt="logo de blacketek" />
+      <a href="/">
+      <img src={Logo} alt="logo de blacketek" /></a>
       <h1> Blacketek</h1>
           <a href="https://www.ticketek.com.ar/websource/auth/login/?next=/websource/profiles/history/">
           <button>MI CUENTA</button>

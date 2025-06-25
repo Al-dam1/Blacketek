@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 import Header from "../componentes/header";
 import Navbar from "../componentes/navbar";
 import Footer from "../componentes/footer";
-import { evento } from "../pages/data";
+import { productsList } from "../src/utiles/data";
 
 const Musica = () => {
   const [carrito, setCarrito] = useState([]);
@@ -19,7 +19,7 @@ const Musica = () => {
       <div className="p-4">
         <h2 className="text-xl font-bold mb-4">Carrito: {carrito.length} producto(s)</h2>
         <div className="grid grid-cols-2 gap-4">
-          {evento.map((item) => (
+          {productsList.map((item) => (
             <div key={item.id} className="border p-4 rounded-xl shadow">
               <img
                 src={item.imagen}

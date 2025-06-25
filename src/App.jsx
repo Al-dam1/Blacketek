@@ -1,37 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { CarritoProvider } from './context/CarritoContext';
-import Home from '../pages/home.jsx'
-import Musica from '../pages/Musica.jsx'
-import Teatro from '../pages/Teatro.jsx'
-import Deportes from '../pages/Deportes.jsx'
-import Familia from '../pages/Familia.jsx'
-import Especiales from '../pages/Especiales.jsx'
-import Contacto from '../pages/contacto.jsx'
-import viteLogo from '/vite.svg'
-import '../hoja-de-estilos/estilos.css'
-import Carrito from '../componentes/carrito.jsx'
-
-
- 
+import { useState, useEffect } from "react";
+import "../hoja-de-estilos/Estilos.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "../pages/home";
+import Header from "../componentes/header";
+import Navbar from "../componentes/navbar";
+import Gallery from "../componentes/gallery";
+import Footer from "../componentes/footer";
+import NotFund from "../componentes/NotFund";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [cart, setCart] = useState([]);
+  const [productos, setProductos] = useState([]);
+  const [cargando, setCargando] = useState(true);
+  const [error, setError] = useState(false); 
+
+  useEffect(() => {
+    fetch("/utiles/data.json") 
+      .then((respuesta) => respuesta.json())
+      .then((datos) => {
+        console.log(datos);
+        setProductos(datos);
+        setCargando(false);
+      })
+      .catch((err) => {
+        console.error(err);
+        setError(true);
+        setCargando(false);
+      });
+  }, []);
 
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/Musica" element={<Musica />} />
-      <Route path="/Teatro" element={<Teatro/>} />
-      <Route path="/Deportes" element={<Deportes />} />
-      <Route path="/Familia" element={<Familia />} />
-      <Route path="/Especiales" element={<Especiales />} />
-      <Route path="/Contacto" element={<Contacto />} />
-      {/* Agregá las demás páginas acá */}
-    </Routes>
   
-  )
+      <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Header" element={<Header />} />
+        <Route path="/Navbar" element={<Navbar />} />
+        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/NotFund" element={<NotFund />} />
+        <Route path="/Footer" element={<Footer />} />
+        <Route path="/NotFund" element={<NotFund />} />
+      </Routes>
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
