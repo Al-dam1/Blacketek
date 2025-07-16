@@ -10,10 +10,19 @@ const Product = ({ product, addToCart }) => {
       />
       <h3 className="font-semibold text-lg">{product.nombre}</h3>
       <p className="text-gray-600">${product.precio}</p>
-      <p className="text-sm text-gray-500">Stock: {product.stock}</p>
+      {product.stock === 0 ? (
+        <p className="text-red-500">Sin stock</p>
+      ) : (
+        <p className="text-sm text-gray-500">Stock: {product.stock}</p>
+      )}
       <button
         onClick={() => addToCart(product)}
-        className="mt-2 bg-blue-500 hover:bg-blue-900 text-white px-4 py-1 rounded"
+        disabled={product.stock === 0}
+        className={`mt-2 px-4 py-1 rounded text-white 
+          ${product.stock === 0 
+            ? "bg-gray-400 cursor-not-allowed" 
+            : "bg-blue-500 hover:bg-blue-900"}
+        `}
       >
         Agregar al carrito
       </button>
@@ -22,4 +31,3 @@ const Product = ({ product, addToCart }) => {
 };
 
 export default Product;
-

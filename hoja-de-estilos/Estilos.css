@@ -5,6 +5,18 @@
   list-style: none;
   text-decoration: none;
 }
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  25%  { transform: translateY(-6px); }
+  50%  { transform: translateY(0); }
+  75%  { transform: translateY(-3px); }
+  100% { transform: translateY(0); }
+}
+
+.carrito-animado {
+  animation: bounce 0.4s ease-in-out;
+}
+
 body{
   display: flex;
   justify-content: center;
@@ -215,4 +227,24 @@ nav ul li:hover {
 .form button:hover {
   background-color: #0056b3;
   color: #333;
+}
+.mensaje-flotante {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+  animation: fade 2s ease-in-out;
+}
+
+@keyframes fade {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-10px); }
 }

@@ -9,7 +9,7 @@ const Header = () => {
       <a href="/">
       <img src={Logo} alt="logo de blacketek" /></a>
       <h1> Blacketek</h1>
-          <a href="https://www.ticketek.com.ar/websource/auth/login/?next=/websource/profiles/history/">
+          <a href="/login">
           <button>MI CUENTA</button>
         </a>
         

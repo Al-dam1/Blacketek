@@ -3,7 +3,7 @@
     "nombre": "Oriental Ceramic Shirt",
     "precio": "964.09",
     "stock": 21,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/49.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/sam960.png",
     "id": "1",
     "categoria" : "musica"
   },
@@ -11,7 +11,7 @@
     "nombre": "Refined Metal Fish",
     "precio": "946.39",
     "stock": 2,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/80.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/beto_25op_s.png",
     "id": "2",
     "categoria" : "musica"
   },
@@ -19,7 +19,7 @@
     "nombre": "Handmade Concrete Sausages",
     "precio": "149.19",
     "stock": 83,
-    "imagen": "https://avatars.githubusercontent.com/u/95230351",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/pedro_capo_s.png",
     "id": "3",
     "categoria" : "musica"
   },
@@ -27,7 +27,7 @@
     "nombre": "Ergonomic Marble Chair",
     "precio": "62.79",
     "stock": 80,
-    "imagen": "https://avatars.githubusercontent.com/u/22224905",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/juangen960.png",
     "id": "4",
     "categoria" : "musica"
   },
@@ -35,7 +35,7 @@
     "nombre": "Modern Wooden Soap",
     "precio": "589.79",
     "stock": 88,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/1.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/divogen960.png",
     "id": "5",
     "categoria" : "musica"
   },
@@ -43,7 +43,7 @@
     "nombre": "Frozen Granite Chicken",
     "precio": "264.69",
     "stock": 90,
-    "imagen": "https://avatars.githubusercontent.com/u/76354189",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/jjgen960.png",
     "id": "6",
     "categoria" : "musica"
   },
@@ -51,7 +51,7 @@
     "nombre": "Refined Steel Computer",
     "precio": "159.49",
     "stock": 31,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/2.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/antgen960b.png",
     "id": "7",
     "categoria" : "musica"
   },
@@ -59,7 +59,7 @@
     "nombre": "Oriental Concrete Table",
     "precio": "655.55",
     "stock": 73,
-    "imagen": "https://avatars.githubusercontent.com/u/3905720",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/carlos_v_s.png",
     "id": "8",
     "categoria" : "musica"
   } ,
@@ -67,7 +67,7 @@
     "nombre": "Tasty Granite Table",
     "precio": "667.15",
     "stock": 3,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/69.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/hilgen960.png",
     "id": "9",
     "categoria" : "musica"
   } ,
@@ -75,7 +75,7 @@
     "nombre": "Practical Gold Gloves",
     "precio": "745.39",
     "stock": 54,
-    "imagen": "https://avatars.githubusercontent.com/u/23060094",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/emanero_gs.png",
     "id": "10",
     "categoria" : "musica"
   },
@@ -83,7 +83,7 @@
     "nombre": "Incredible Aluminum Towels",
     "precio": "831.89",
     "stock": 91,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/75.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/desper2960.png",
     "id": "11",
     "categoria" : "teatro"
   },
@@ -91,7 +91,7 @@
     "nombre": "Intelligent Bamboo Tuna",
     "precio": "454.25",
     "stock": 49,
-    "imagen": "https://avatars.githubusercontent.com/u/65999663",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/evc_pieza_960x400_teatro-coliseo_sin-logos-png.png",
     "id": "12",
     "categoria" : "teatro"
   },
@@ -99,7 +99,7 @@
     "nombre": "Ergonomic Bamboo Table",
     "precio": "123.45",
     "stock": 10,
-    "imagen": "https://avatars.githubusercontent.com/u/45886215",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/primafacie_s.png",
     "id": "13",
     "categoria" : "teatro"
   },
@@ -107,7 +107,7 @@
     "nombre": "Soft Granite Keyboard",
     "precio": "233.69",
     "stock": 98,
-    "imagen": "https://avatars.githubusercontent.com/u/88537172",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/subacuatica_1.png",
     "id": "14",
     "categoria" : "teatro"
   },
@@ -115,7 +115,7 @@
     "nombre": "Rustic Cotton Towels",
     "precio": "801.59",
     "stock": 45,
-    "imagen": "https://avatars.githubusercontent.com/u/42105985",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/que960.png",
     "id": "15",
     "categoria" : "teatro"
   },
@@ -123,7 +123,7 @@
     "nombre": "Modern Granite Computer",
     "precio": "261.39",
     "stock": 50,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/46.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/caligula_g_s.png",
     "id": "16",
     "categoria" : "teatro"
   },
@@ -131,7 +131,7 @@
     "nombre": "Luxurious Rubber Salad",
     "precio": "873.39",
     "stock": 74,
-    "imagen": "https://avatars.githubusercontent.com/u/62281484",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/es_compli_s.png",
     "id": "17",
     "categoria" : "teatro"
   },
@@ -139,7 +139,7 @@
     "nombre": "Small Bronze Bacon",
     "precio": "95.25",
     "stock": 28,
-    "imagen": "https://avatars.githubusercontent.com/u/65685843",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/homgen960.png",
     "id": "18",
     "categoria" : "teatro"
   },
@@ -147,7 +147,7 @@
     "nombre": "Licensed Cotton Gloves",
     "precio": "100.79",
     "stock": 60,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/26.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/connie_gs.png",
     "id": "19",
     "categoria" : "teatro"
   },
@@ -155,7 +155,7 @@
     "nombre": "Unbranded Ceramic Computer",
     "precio": "525.09",
     "stock": 59,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/82.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/nachito_s_25.png",
     "id": "20",
     "categoria" : "teatro"
   },
@@ -163,7 +163,7 @@
     "nombre": "Intelligent Steel Car",
     "precio": "362.55",
     "stock": 64,
-    "imagen": "https://avatars.githubusercontent.com/u/24602494",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/estrellas25_s.png",
     "id": "21",
     "categoria" : "deportes"
   },
@@ -171,7 +171,7 @@
     "nombre": "Elegant Gold Bacon",
     "precio": "851.45",
     "stock": 41,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/42.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/venta-entradas-general-960.png",
     "id": "22",
     "categoria" : "deportes"
   },
@@ -179,7 +179,7 @@
     "nombre": "Small Rubber Chips",
     "precio": "754.95",
     "stock": 46,
-    "imagen": "https://avatars.githubusercontent.com/u/92995692",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/960x400-banff-fnca-amex3-1-png-2.png",
     "id": "23",
     "categoria" : "deportes"
   },
@@ -187,7 +187,7 @@
     "nombre": "Oriental Bronze Keyboard",
     "precio": "551.15",
     "stock": 27,
-    "imagen": "https://avatars.githubusercontent.com/u/57044157",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/pumas-gen-960.png",
     "id": "24",
     "categoria" : "deportes"
   },
@@ -243,7 +243,7 @@
     "nombre": "Ergonomic Aluminum Gloves",
     "precio": "369.29",
     "stock": 76,
-    "imagen": "https://avatars.githubusercontent.com/u/16771782",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/960x400-pilar-png.png",
     "id": "31",
     "categoria" : "familia"
   },
@@ -251,7 +251,7 @@
     "nombre": "Intelligent Gold Car",
     "precio": "904.25",
     "stock": 8,
-    "imagen": "https://avatars.githubusercontent.com/u/87333510",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/2py1tg_s.png",
     "id": "32",
     "categoria" : "familia"
   },
@@ -259,7 +259,7 @@
     "nombre": "Frozen Rubber Mouse",
     "precio": "672.29",
     "stock": 71,
-    "imagen": "https://avatars.githubusercontent.com/u/65016148",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/pepa_generica_s.png",
     "id": "33",
     "categoria" : "familia"
   },
@@ -267,7 +267,7 @@
     "nombre": "Luxurious Marble Ball",
     "precio": "337.49",
     "stock": 19,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/57.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/derechos_torcidos_generica_s.png",
     "id": "34",
     "categoria" : "familia"
   },
@@ -275,7 +275,7 @@
     "nombre": "Oriental Rubber Chair",
     "precio": "830.79",
     "stock": 3,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/56.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/pyd960.png",
     "id": "35",
     "categoria" : "familia"
   },
@@ -283,7 +283,7 @@
     "nombre": "Sleek Marble Mouse",
     "precio": "401.69",
     "stock": 61,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/27.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/aventuras_mineras_g_25s.png",
     "id": "36",
     "categoria" : "familia"
   },
@@ -291,7 +291,7 @@
     "nombre": "Elegant Plastic Car",
     "precio": "743.59",
     "stock": 13,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/31.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/panam_25_s.png",
     "id": "37",
     "categoria" : "familia"
   },
@@ -299,7 +299,7 @@
     "nombre": "Licensed Metal Shirt",
     "precio": "551.99",
     "stock": 94,
-    "imagen": "https://avatars.githubusercontent.com/u/50067046",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/familia_esp_s.png",
     "id": "38",
     "categoria" : "familia"
   },
@@ -307,7 +307,7 @@
     "nombre": "Luxurious Cotton Sausages",
     "precio": "335.85",
     "stock": 21,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/37.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/sonico_s_0.png",
     "id": "39",
     "categoria" : "familia"
   },
@@ -315,7 +315,7 @@
     "nombre": "Frozen Wooden Car",
     "precio": "730.45",
     "stock": 86,
-    "imagen": "https://avatars.githubusercontent.com/u/4007835",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/960x400-oceano.png",
     "id": "40",
     "categoria" : "familia"
   },
@@ -323,7 +323,7 @@
     "nombre": "Generic Bronze Pizza",
     "precio": "825.35",
     "stock": 60,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/76.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/hincha_s.png",
     "id": "41",
     "categoria" : "especiales"
   },
@@ -331,7 +331,7 @@
     "nombre": "Small Steel Pants",
     "precio": "618.75",
     "stock": 75,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/83.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/960x400-banff-fnca-amex3-1-png-2.png",
     "id": "42",
     "categoria" : "especiales"
   },
@@ -339,7 +339,7 @@
     "nombre": "Practical Gold Pants",
     "precio": "660.95",
     "stock": 13,
-    "imagen": "https://avatars.githubusercontent.com/u/81020821",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/sindicatovencido_s.png",
     "id": "43",
     "categoria" : "especiales"
   },
@@ -347,7 +347,7 @@
     "nombre": "Handcrafted Wooden Gloves",
     "precio": "255.09",
     "stock": 100,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/96.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/gabriel_rolon.jpg",
     "id": "44",
     "categoria" : "especiales"
   },
@@ -355,7 +355,7 @@
     "nombre": "Frozen Wooden Towels",
     "precio": "172.05",
     "stock": 55,
-    "imagen": "https://avatars.githubusercontent.com/u/65527572",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/martin960.png",
     "id": "45",
     "categoria" : "especiales"
   },
@@ -363,7 +363,7 @@
     "nombre": "Modern Marble Bike",
     "precio": "817.95",
     "stock": 79,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/49.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/ani_con_septiembre.png",
     "id": "46",
     "categoria" : "especiales"
   },
@@ -371,7 +371,7 @@
     "nombre": "Small Wooden Mouse",
     "precio": "334.05",
     "stock": 35,
-    "imagen": "https://avatars.githubusercontent.com/u/21135592",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/mus960.png",
     "id": "47",
     "categoria" : "especiales"
   },
@@ -379,7 +379,7 @@
     "nombre": "Modern Gold Chicken",
     "precio": "658.39",
     "stock": 60,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/50.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/ex960_0.png",
     "id": "48",
     "categoria" : "especiales"
   },
@@ -387,7 +387,7 @@
     "nombre": "Oriental Bamboo Bike",
     "precio": "938.69",
     "stock": 26,
-    "imagen": "https://avatars.githubusercontent.com/u/50269118",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/pace960.png",
     "id": "49",
     "categoria" : "especiales"
   },
@@ -395,7 +395,7 @@
     "nombre": "Intelligent Gold Car",
     "precio": "411.55",
     "stock": 53,
-    "imagen": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/48.jpg",
+    "imagen": "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/portal960.png",
     "id": "50",
     "categoria" : "especiales"
   }
