@@ -6,11 +6,11 @@ const Gallery = () => {
     "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/jenn960.png",
     "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/sanson960.png",
     "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/master_s.png",
-    "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/sub_25_s.png",
+    "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/infi960.png",
     "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/galaxias_s.png",
     "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/images/show-header/amer960.png",
     "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/show-header/padelba960.png",
-    "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/principito_g_s.png",
+    "https://prod-cms-static.ticketek.com.ar/sites/default/files/styles/artists_list_featured/public/miranda_generica_s.png",
   ];
 
   return (
@@ -18,10 +18,7 @@ const Gallery = () => {
     {images.map((src, index) => (
       <div key={index} className="card">
         <img src={src} alt={`images${index + 1}`} />
-        <div className="overlay">
-          <button>Ver más</button>
-          <button>Comprar ticket</button>
-        </div>
+        
       </div>
     ))}
   </section>

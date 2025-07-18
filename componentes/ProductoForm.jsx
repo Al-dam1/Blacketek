@@ -20,28 +20,29 @@ const ProductoForm = ({ onAgregar }) => {
   };
 
   return (
- <form onSubmit={handleSubmit} className="flex flex-wrap gap-4 mb-6">
+<form onSubmit={handleSubmit} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full mb-6" >
   <input
     type="text"
     value={nombre}
     onChange={(e) => setNombre(e.target.value)}
     placeholder="Nombre"
-    className="border px-3 py-2 rounded w-[30%] min-w-[100px] flex-1"
+    className="border px-4 py-2 rounded w-full h-[48px]" // <- altura uniforme
   />
   <input
     type="number"
     value={precio}
     onChange={(e) => setPrecio(e.target.value)}
     placeholder="Precio"
-    className="border px-3 py-2 rounded w-[30%] min-w-[100px] flex-1"
+    className="border px-4 py-2 rounded w-full h-[48px]" // <- altura uniforme
   />
   <button
     type="submit"
-    className="bg-blue-500 text-white px-4 py-2 rounded w-[30%] min-w-[100px] flex-1 hover:bg-blue-600 transition"
+    className="bg-blue-500 text-white px-4 py-2 rounded w-full h-[48px] hover:bg-blue-600 transition"
   >
     Agregar
   </button>
 </form>
+
 
 
   );

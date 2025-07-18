@@ -15,7 +15,7 @@ import Contacto from "../pages/Contacto";
 import Carrito from "../PAGES.jsx/Carrito";
 import CarritoPage from "../PAGES.jsx/CarritoPage";
 import PanelAdministrativo from "../pages/PanelAdministrativo";
-import Login from "../pages/login";
+import MiCuenta from "../pages/MiCuenta";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -86,6 +86,8 @@ function App() {
             />
           }
         />
+        <Route path="/MiCuenta" element={<MiCuenta />} />
+
         <Route
           path="/Musica"
           element={<Musica addToCart={handleAddToCart} />}
